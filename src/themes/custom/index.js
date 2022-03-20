@@ -101,7 +101,7 @@ export default StyleSheet.create({
         marginRight: 10
     },
     arrowIconContainer: {
-        marginLeft: 10
+        marginLeft: 5
     },
     tickIconContainer: {
         marginLeft: 10
