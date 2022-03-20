@@ -100,16 +100,16 @@ export default StyleSheet.create({
         marginRight: 0
     },
     arrowIconContainer: {
-        marginLeft: 0
+        marginLeft: 5
     },
     tickIconContainer: {
-        marginLeft: 0
+        paddingRight: 5
     },
     closeIconContainer: {
         marginLeft: 0
     },
     listParentLabel: {
-
+        marginLeft: 5
     },
     listChildLabel: {
 
