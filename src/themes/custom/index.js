@@ -25,11 +25,11 @@ export default StyleSheet.create({
         borderWidth: 1,
         borderColor: Colors.BLACK,
         paddingHorizontal: 10,
-        backgroundColor: Colors.EBONY_CLAY,
+        backgroundColor: Colors.WHITE
     },
     label: {
         flex: 1,
-        color: Colors.HEATHER
+        color: Colors.BLACK
     },
     labelContainer: {
         flex: 1,
@@ -74,7 +74,7 @@ export default StyleSheet.create({
     },
     dropDownContainer: {
         position: 'absolute',
-        backgroundColor: Colors.EBONY_CLAY,
+        backgroundColor: Colors.WHITE,
         borderRadius: 8,
         borderColor: Colors.BLACK,
         borderWidth: 1,
@@ -84,30 +84,29 @@ export default StyleSheet.create({
     },
     modalContentContainer: {
         flexGrow: 1,
-        backgroundColor: Colors.EBONY_CLAY
     },
     listItemContainer: {
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'space-between',
-        paddingHorizontal: 10,
+        paddingHorizontal: 5,
         height: 40
     },
     listItemLabel: {
         flex: 1,
-        color: Colors.HEATHER
+        color: Colors.BLACK
     },
     iconContainer: {
-        marginRight: 10
+        marginRight: 0
     },
     arrowIconContainer: {
-        marginLeft: 5
+        marginLeft: 0
     },
     tickIconContainer: {
-        marginLeft: 10
+        marginLeft: 0
     },
     closeIconContainer: {
-        marginLeft: 10
+        marginLeft: 0
     },
     listParentLabel: {
 
@@ -125,7 +124,7 @@ export default StyleSheet.create({
         flexDirection: 'row',
         alignItems: 'center',
         padding: 10,
-        borderBottomColor: Colors.SHUTTLE_GREY,
+        borderBottomColor: Colors.BLACK,
         borderBottomWidth: 1
     },
     searchTextInput: {
@@ -135,13 +134,13 @@ export default StyleSheet.create({
         paddingHorizontal: 10,
         paddingVertical: 5,
         borderRadius: 8,
-        borderColor: Colors.SHUTTLE_GREY,
+        borderColor: Colors.BLACK,
         borderWidth: 1,
-        color: Colors.WHITE
+        color: Colors.BLACK
     },
     itemSeparator: {
         height: 1,
-        backgroundColor: Colors.SHUTTLE_GREY,
+        backgroundColor: Colors.BLACK,
     },
     flatListContentContainer: {
         flexGrow: 1
@@ -169,6 +168,6 @@ export default StyleSheet.create({
     },
     modalTitle: {
         fontSize: 18,
-        color: Colors.HEATHER
+        color: Colors.BLACK
     }
 });
