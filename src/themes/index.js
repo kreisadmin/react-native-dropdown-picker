@@ -1,5 +1,5 @@
 export default {
-    DEFAULT: 'LIGHT',
+    DEFAULT: 'CUSTOM',
     LIGHT: require('./light'),
     DARK: require('./dark'),
     CUSTOM: require('./custom')
